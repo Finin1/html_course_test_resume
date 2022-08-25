@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    /* font-weight: bold; */
+    line-height: 20px;   
+    background-color: #e0e3af;
+    color: #0d0d0d;
+}
+
+header {
+    margin: 15px 20px 20px 5px;
+}
+
+.info-text p {
+    font-style: italic;
+    color: #89898f;
+    font-weight: bold;
+    margin: 5px 5px 0px 5px;
+}
+
+.info-text {
+    margin: 10px 10px 10px 0px ;
+}
+
+.massangers {
+    margin: 10px;   
+    margin-left: 5px;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    /* width: 50%; */
+    margin-bottom: 10px;
+    padding: 20px;    
+
+}
+
+.card h3 {
+    font-size: 22px;
+    /* padding-left: 20px; */
+}
+
+.card ul { 
+    padding-left: 30px;
+    padding-top: 5px;
+}
+
+.card table {
+    padding-top: 5px;
+}
+
+.card form {
+    padding-top: 5px;
+}
+
+.bg-yellow {
+    background-color: #fff9dc;
+}
+
+.bg-red {
+    background-color: #ffe5e5;
+}
+
+.bg-green {
+    background-color: #e5ffe7 ;
+}
+
+.avatar img {
+    border-radius: 20px;
+    box-shadow: 9px 11px 11px -2px rgba(0,0,0,0.75);
+    margin: 10px 10px 0px 5px;
+}
+
+.container {
+    margin: auto;
+    max-width: 750px;
+}
+
